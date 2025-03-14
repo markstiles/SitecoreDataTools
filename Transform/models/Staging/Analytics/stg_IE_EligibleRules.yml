@@ -1,0 +1,8 @@
+models:
+  - name: stg_IE_EligibleRules
+    description: ''
+    columns:
+      - name: InteractionEventId
+        description: ''
+      - name: RuleId
+        description: ''

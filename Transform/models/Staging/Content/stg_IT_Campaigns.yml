@@ -1,0 +1,8 @@
+models:
+  - name: stg_IT_Campaigns
+    description: ''
+    columns:
+      - name: CampaignId
+        description: ''
+      - name: CampaignName
+        description: ''

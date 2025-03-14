@@ -1,0 +1,14 @@
+models:
+  - name: stg_IE_Delta
+    description: ''
+    columns:
+      - name: InteractionEventId
+        description: ''
+      - name: ProfileId
+        description: ''
+      - name: ScoreCount
+        description: ''
+      - name: ProfileKeyId
+        description: ''
+      - name: ProfileKeyValue
+        description: ''

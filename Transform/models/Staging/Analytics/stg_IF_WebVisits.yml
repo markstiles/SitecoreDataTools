@@ -1,0 +1,20 @@
+models:
+  - name: stg_IF_WebVisits
+    description: ''
+    columns:
+      - name: WebVisitId
+        description: ''
+      - name: InteractionId
+        description: ''
+      - name: ContactId
+        description: ''
+      - name: Browser
+        description: ''
+      - name: OperatingSystem
+        description: ''
+      - name: Referrer
+        description: ''
+      - name: IsSelfReferrer
+        description: ''
+      - name: SearchKeywords
+        description: ''

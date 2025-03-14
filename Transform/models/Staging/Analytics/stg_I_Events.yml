@@ -1,0 +1,76 @@
+models:
+  - name: stg_I_Events
+    description: ''
+    columns:
+      - name: InteractionEventId
+        description: ''
+      - name: InteractionId
+        description: ''
+      - name: ContactId
+        description: ''
+      - name: StartDateTime
+        description: ''
+      - name: EndDateTime
+        description: ''
+      - name: DeviceProfileId
+        description: ''
+      - name: ChannelId
+        description: ''
+      - name: VenueId
+        description: ''
+      - name: CampaignId
+        description: ''
+      - name: UserAgent
+        description: ''
+      - name: Percentile
+        description: ''
+      - name: EventType
+        description: ''
+      - name: CustomValues
+        description: ''
+      - name: DefinitionId
+        description: ''
+      - name: ItemId
+        description: ''
+      - name: Id
+        description: ''
+      - name: Timestamp
+        description: ''
+      - name: Duration
+        description: ''
+      - name: ItemLanguage
+        description: ''
+      - name: ItemVersion
+        description: ''
+      - name: Url
+        description: ''
+      - name: DeviceName
+        description: ''
+      - name: Data
+        description: ''
+      - name: DataKey
+        description: ''
+      - name: ParentEventId
+        description: ''
+      - name: Text
+        description: ''
+      - name: EngagementValue
+        description: ''
+      - name: Combination
+        description: ''
+      - name: ExposureTime
+        description: ''
+      - name: FirstExposure
+        description: ''
+      - name: ContactVisitIndex
+        description: ''
+      - name: DeviceType
+        description: ''
+      - name: CampaignDefinitionId
+        description: ''
+      - name: Delta
+        description: ''
+      - name: ExposedRules
+        description: ''
+      - name: EligibleRules
+        description: ''

@@ -1,0 +1,23 @@
+version: 1
+
+sources:
+  - name: content
+    schema: dbo
+    description: ''
+    freshness:
+      warn_after:
+        count: 24
+        period: hour
+    tables:
+      - name: IT_Campaigns
+        description: ''
+      - name: IT_Goals
+        description: ''
+      - name: IT_Pages
+        description: ''
+      - name: IT_PatternCards
+        description: ''
+      - name: IT_ProfileKeys
+        description: ''
+      - name: IT_Profiles
+        description: ''

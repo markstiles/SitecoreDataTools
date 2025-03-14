@@ -1,0 +1,10 @@
+models:
+  - name: stg_CF_Classifications
+    description: ''
+    columns:
+      - name: ClassificationId
+        description: ''
+      - name: ContactId
+        description: ''
+      - name: ClassificationLevel
+        description: ''

@@ -1,0 +1,20 @@
+models:
+  - name: stg_CF_EngagementMeasures
+    description: ''
+    columns:
+      - name: EngagementMeasureId
+        description: ''
+      - name: ContactId
+        description: ''
+      - name: TotalInteractionCount
+        description: ''
+      - name: TotalValue
+        description: ''
+      - name: MostRecentInteractionStartDateTime
+        description: ''
+      - name: MostRecentInteractionDuration
+        description: ''
+      - name: TotalInteractionDuration
+        description: ''
+      - name: AverageInteractionDuration
+        description: ''

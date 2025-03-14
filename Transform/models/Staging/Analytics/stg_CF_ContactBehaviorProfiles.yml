@@ -1,0 +1,22 @@
+models:
+  - name: stg_CF_ContactBehaviorProfiles
+    description: ''
+    columns:
+      - name: ContactBehaviorProfileId
+        description: ''
+      - name: ContactId
+        description: ''
+      - name: ProfileId
+        description: ''
+      - name: PatternCardId
+        description: ''
+      - name: ScoreCount
+        description: ''
+      - name: Score
+        description: ''
+      - name: ProfileKeyId
+        description: ''
+      - name: ProfileKeyValue
+        description: ''
+      - name: SourceInteractionStartDateTime
+        description: ''

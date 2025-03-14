@@ -1,0 +1,10 @@
+models:
+  - name: stg_IT_PatternCards
+    description: ''
+    columns:
+      - name: PatternCardId
+        description: ''
+      - name: ProfileId
+        description: ''
+      - name: PatternCardName
+        description: ''

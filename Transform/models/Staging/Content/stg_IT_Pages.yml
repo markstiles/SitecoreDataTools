@@ -1,0 +1,12 @@
+models:
+  - name: stg_IT_Pages
+    description: ''
+    columns:
+      - name: PageId
+        description: ''
+      - name: PageName
+        description: ''
+      - name: TemplateName
+        description: ''
+      - name: Topics
+        description: ''

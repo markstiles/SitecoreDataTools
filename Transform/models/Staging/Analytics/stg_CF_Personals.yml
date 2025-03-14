@@ -1,0 +1,14 @@
+models:
+  - name: stg_CF_Personals
+    description: ''
+    columns:
+      - name: PersonalId
+        description: ''
+      - name: ContactId
+        description: ''
+      - name: FirstName
+        description: ''
+      - name: LastName
+        description: ''
+      - name: Suffix
+        description: ''

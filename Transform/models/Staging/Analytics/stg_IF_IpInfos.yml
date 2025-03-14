@@ -1,0 +1,14 @@
+models:
+  - name: stg_IF_IpInfos
+    description: ''
+    columns:
+      - name: IpInfoId
+        description: ''
+      - name: InteractionId
+        description: ''
+      - name: ContactId
+        description: ''
+      - name: IpAddress
+        description: ''
+      - name: LocationId
+        description: ''

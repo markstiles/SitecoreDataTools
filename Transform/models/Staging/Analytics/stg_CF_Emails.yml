@@ -1,0 +1,14 @@
+models:
+  - name: stg_CF_Emails
+    description: ''
+    columns:
+      - name: EmailId
+        description: ''
+      - name: ContactId
+        description: ''
+      - name: Others
+        description: ''
+      - name: PreferredKey
+        description: ''
+      - name: PreferredEmail
+        description: ''

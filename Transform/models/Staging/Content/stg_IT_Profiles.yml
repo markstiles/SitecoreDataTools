@@ -1,0 +1,8 @@
+models:
+  - name: stg_IT_Profiles
+    description: ''
+    columns:
+      - name: ProfileId
+        description: ''
+      - name: ProfileName
+        description: ''

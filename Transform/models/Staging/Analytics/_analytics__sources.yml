@@ -1,0 +1,39 @@
+version: 1
+
+sources:
+  - name: analytics
+    schema: dbo
+    description: ''
+    freshness:
+      warn_after:
+        count: 24
+        period: hour
+    tables:
+      - name: CF_Classifications
+        description: ''
+      - name: CF_ContactBehaviorProfiles
+        description: ''
+      - name: CF_Emails
+        description: ''
+      - name: CF_EngagementMeasures
+        description: ''
+      - name: CF_Personals
+        description: ''
+      - name: CF_TestCombinations
+        description: ''
+      - name: I_Events
+        description: ''
+      - name: IE_Delta
+        description: ''
+      - name: IE_EligibleRules
+        description: ''
+      - name: IE_ExposedRules
+        description: ''
+      - name: IF_IpInfos
+        description: ''
+      - name: IF_ProfileScores
+        description: ''
+      - name: IF_UserAgentInfo
+        description: ''
+      - name: IF_WebVisits
+        description: ''

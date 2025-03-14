@@ -1,0 +1,12 @@
+models:
+  - name: stg_IF_UserAgentInfo
+    description: ''
+    columns:
+      - name: UserAgentInfoId
+        description: ''
+      - name: InteractionId
+        description: ''
+      - name: ContactId
+        description: ''
+      - name: DeviceType
+        description: ''

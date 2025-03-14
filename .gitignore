@@ -1,0 +1,8 @@
+.ipynb_checkpoints/
+.~*
+*.zip
+*.log
+sa_venv/
+*.webp
+.vscode/
+*.gitkeep

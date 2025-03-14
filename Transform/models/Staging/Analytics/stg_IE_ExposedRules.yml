@@ -1,0 +1,12 @@
+models:
+  - name: stg_IE_ExposedRules
+    description: ''
+    columns:
+      - name: InteractionEventId
+        description: ''
+      - name: RuleId
+        description: ''
+      - name: RuleSetId
+        description: ''
+      - name: IsOriginal
+        description: ''

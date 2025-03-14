@@ -1,0 +1,10 @@
+models:
+  - name: stg_IT_ProfileKeys
+    description: ''
+    columns:
+      - name: ProfileKeyId
+        description: ''
+      - name: ProfileId
+        description: ''
+      - name: ProfileKeyName
+        description: ''

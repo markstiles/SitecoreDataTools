@@ -1,0 +1,22 @@
+models:
+  - name: stg_IF_ProfileScores
+    description: ''
+    columns:
+      - name: ProfileScoreId
+        description: ''
+      - name: InteractionId
+        description: ''
+      - name: ContactId
+        description: ''
+      - name: ProfileId
+        description: ''
+      - name: PatternCardId
+        description: ''
+      - name: ScoreCount
+        description: ''
+      - name: Score
+        description: ''
+      - name: ProfileKeyId
+        description: ''
+      - name: ProfileKeyValue
+        description: ''

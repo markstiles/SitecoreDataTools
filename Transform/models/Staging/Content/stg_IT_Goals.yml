@@ -1,0 +1,8 @@
+models:
+  - name: stg_IT_Goals
+    description: ''
+    columns:
+      - name: GoalId
+        description: ''
+      - name: GoalName
+        description: ''

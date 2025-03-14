@@ -1,0 +1,16 @@
+sitecore_warehouse:
+  target: dev
+  outputs:
+    dev:
+      type: sqlserver 
+      driver: 'ODBC Driver 17 for SQL Server' # (The ODBC Driver installed on your system)
+      server: .\SQLServer 
+      port: 1433
+      database: Xdb.AnalyticsWarehouse
+      database_shard0: Xdb.Collection.Shard0
+      database_shard1: Xdb.Collection.Shard1
+      database_items: Master
+      schema: dbo
+      user: sa
+      password: password
+      encrypt: false
