@@ -34,6 +34,7 @@
 * pyyaml
 * dbt.core
 * dbt-sqlserver
+* duckdb
 
 ### Install dbt (with Terminal in VS Code)
 * dbt manages all the SQL in a project format that's required to convert raw data into business recognizeable data structures
