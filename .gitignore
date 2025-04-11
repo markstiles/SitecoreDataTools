@@ -6,3 +6,4 @@ sa_venv/
 *.webp
 .vscode/
 *.gitkeep
+env/
