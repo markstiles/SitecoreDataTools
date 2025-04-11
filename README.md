@@ -44,6 +44,10 @@
 * dbt needs database connection information but doesn't store it locally
 * copy and rename the sample-profiles to C:\Users\<username>\.dbt\profiles.yml
 * populate the profile database connection values with your settings
+* if you name the profile something different than sitecore_warehouse then you'll want to update it in three places where it's referenced:
+    * /Load/OnPremLoading.ipynb (in the 'Variables' section)
+    * /Transform/dbt_project.yml (line 9)
+    * /Viz/Mining.ipynb (in the 'Variables' section)
 
 ### Run Loading Script
 * the first step in creating useable analytics is migrating them to one single database
