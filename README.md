@@ -46,6 +46,7 @@
 * populate the profile database connection values with your settings
 * if you name the profile something different than sitecore_warehouse then you'll want to update it in three places where it's referenced:
     * /Load/OnPremLoading.ipynb (in the 'Variables' section)
+    * /Load/ParquetExporting.ipynb (in the 'Variables' section)
     * /Transform/dbt_project.yml (line 9)
     * /Viz/Mining.ipynb (in the 'Variables' section)
 
