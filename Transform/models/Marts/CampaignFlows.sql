@@ -17,8 +17,7 @@ with SkipDuplicatePages as (
 	WHERE PageName IS NOT NULL AND CampaignId IS NOT NULL
 )
 ,RankedPages AS (
-    SELECT 
-        Distinct
+    SELECT DISTINCT
 		ItemId
 		,PageName
         ,ROW_NUMBER() OVER (ORDER BY PageName) AS PageOrder
@@ -26,20 +25,30 @@ with SkipDuplicatePages as (
 	WHERE PageName IS NOT NULL
 	GROUP BY ItemId, PageName
 )
+,CampaignNames as (
+	SELECT DISTINCT 
+		CampaignId, 
+		CampaignName 
+	FROM {{ ref('CampaignEvents') }}
+	WHERE CampaignId IS NOT NULL 
+	GROUP BY CampaignId, CampaignName
+)
 ,CampaignFlows AS (
     SELECT 
         r1.InteractionId,
+		r3.CampaignName,
 		r1.ItemId,
         r1.PageName,
 		r1.ReadTime,
 		r2.PageOrder as Source,
 		LEAD(r2.PageOrder) OVER (PARTITION BY r1.InteractionId ORDER BY r1.Timestamp ASC) as Target,
 		Timestamp,
-		CampaignId
+		r1.CampaignId
     FROM SkipDuplicatePages r1
     LEFT JOIN RankedPages r2 ON r1.ItemId = r2.ItemId
-	WHERE r1.Hide = 0
-	GROUP BY r1.InteractionId, r1.ItemId, r1.PageName, r1.ReadTime, PageOrder, Timestamp, CampaignId
+	LEFT JOIN CampaignNames r3 ON r1.CampaignId = r3.CampaignId
+	WHERE r1.ReadTime IS NOT NULL AND r1.Hide = 0
+	GROUP BY r1.InteractionId, r1.ItemId, r1.PageName, r1.ReadTime, PageOrder, Timestamp, r1.CampaignId, r3.CampaignName
 )
 
 select * from CampaignFlows
