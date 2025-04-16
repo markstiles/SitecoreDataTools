@@ -6,7 +6,6 @@ SELECT
     ,ie.[DeviceProfileId]
     ,ie.[CampaignId]
     ,ie.[CampaignDefinitionId]
-    ,ie.[EventType]
     ,ie.[DefinitionId]
     ,ie.[ItemId]
     ,ie.[Timestamp]
